@@ -1,0 +1,5 @@
+# Ignore the bundled Tomcat files in language stats
+Introduction[[:space:]]to[[:space:]]apache-tomcat[[:space:]]-[[:space:]](Exp-6)/** linguist-vendored
+
+# Optionally, treat HTML as documentation rather than code
+*.html linguist-documentation
