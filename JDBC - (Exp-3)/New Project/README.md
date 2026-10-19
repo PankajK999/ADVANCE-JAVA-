@@ -1,18 +1,24 @@
-## Getting Started
+# JDBC 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Description
+This practical demonstrates how Java connects to a relational database and performs database operations using JDBC.
 
-## Folder Structure
+## Technologies Used
+- Java
+- JDBC
+- MySQL
 
-The workspace contains two folders by default, where:
+## Requirements
+- JDK
+- MySQL Server
+- MySQL Connector/J
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## How to Run
+1. Start MySQL Server.
+2. Create the required database and tables.
+3. Configure the database URL, username, and password in the Java code.
+4. Add the JDBC driver to the classpath.
+5. Compile and run the program.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Learning Outcome
+Understand database connectivity and SQL operations using Java.
